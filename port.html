@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samarth Nilesh Patil - Resume</title>
+    <style>
+        :root {
+            --primary-color: #0f766e; /* Modern Teal for CSD (Design) vibe */
+            --text-color: #333333;
+            --line-color: #cbd5e1;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f5f7;
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        /* A4 Page Simulation */
+        .page {
+            background-color: white;
+            width: 210mm;
+            min-height: 297mm;
+            padding: 15mm 20mm;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32pt;
+            margin: 0 0 5px 0;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        /* Contact Table for perfect Google Docs pasting */
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 10pt;
+        }
+        .contact-table td {
+            padding: 3px 0;
+        }
+        .contact-table a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        .contact-table a:hover {
+            text-decoration: underline;
+            color: var(--primary-color);
+        }
+        /* Top and Bottom lines for header */
+        .header-separator {
+            border-top: 2px solid var(--primary-color);
+            border-bottom: 1px solid var(--line-color);
+            margin-bottom: 20px;
+        }
+        
+        /* Section Headers */
+        h2 {
+            font-size: 13pt;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--line-color);
+            padding-bottom: 4px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            font-size: 10pt;
+            line-height: 1.5;
+            margin: 0 0 10px 0;
+        }
+
+        /* Two-column layout tables for Education and Experience */
+        .layout-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 12px;
+            font-size: 10pt;
+        }
+        .layout-table td {
+            padding: 4px 0;
+            vertical-align: top;
+        }
+        .col-date {
+            width: 22%;
+            font-weight: bold;
+            color: #475569;
+        }
+        .col-details {
+            width: 78%;
+        }
+        .institution {
+            font-weight: bold;
+            color: #000;
+        }
+        
+        ul {
+            margin: 0 0 10px 0;
+            padding-left: 20px;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+        .project-desc {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 8px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    
+    <!-- HEADER -->
+    <h1>Samarth Nilesh Patil</h1>
+    
+    <div class="header-separator">
+        <table class="contact-table">
+            <tr>
+                <td style="text-align: left;">📱 +91 7875711846</td>
+                <td style="text-align: right;">✉️ <a href="mailto:samarth91patil@gmail.com">samarth91patil@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: left;">🔗 <a href="#" target="_blank">[]</a></td>
+                <td style="text-align: right;">💻 <a href="https://github.com/sampatil3041" target="_blank">github.com/sampatil3041</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- ABOUT ME -->
+    <h2>About Me</h2>
+    <p>
+         First-year Computer Science and Design (CSD) student at RGIPT. Combining a strong passion for logical problem solving with creative frontend web development. Currently building a solid foundational skill set in C programming, HTML, and CSS. Eager to leverage the intersection of code and design to build intuitive digital experiences and learn modern software engineering practices.
+    </p>
+
+    <!-- EDUCATION -->
+    <h2>Education</h2>
+    <table class="layout-table">
+        <tr>
+            <td class="col-date">2025 &ndash; 2029</td>
+            <td class="col-details">
+                <span class="institution">Rajiv Gandhi Institute of Petroleum Technology (RGIPT)</span><br>
+                B.Tech in Computer Science and Design (CSD) | CPI: [In Progress]
+            </td>
+        </tr>
+        <tr>
+            <td class="col-date">2023 &ndash; 2024</td>
+            <td class="col-details">
+                <span class="institution">L H Patil English Medium School</span><br>
+                Intermediate (Class XII) | Focus on Core Sciences
+            </td>
+        </tr>
+        <tr>
+            <td class="col-date">2021 &ndash; 2022</td>
+            <td class="col-details">
+                <span class="institution">L H Patil English Medium School</span><br>
+                High School (Class X) | Academic Excellence
+            </td>
+        </tr>
+    </table>
+
+    <!-- TECHNICAL SKILLS -->
+    <h2>Technical Skills</h2>
+    <ul>
+        <li><strong>Languages:</strong> C, HTML, CSS (Foundational proficiency)</li>
+        <li><strong>Developer Tools:</strong> VS Code, Git, GitHub</li>
+        <li><strong>Core Competencies:</strong> Web Design Basics, UI/UX Concepts, Algorithmic Logic, Problem Solving</li>
+        <li><strong>Currently Learning:</strong> Responsive Web Design and Advanced C Programming Concepts</li>
+    </ul>
+
+    <!-- PROJECTS & INITIATIVES -->
+    <h2>Projects & Initiatives</h2>
+    <table class="layout-table">
+        <tr>
+            <td class="col-details" style="width: 100%;">
+                <span class="project-title">Frontend Web Design Repository (GitHub)</span><br>
+                <span class="project-desc">Main Terms: HTML5, CSS3, UI Structure, Web Layouts.</span>
+                <p style="margin: 0 0 10px 0;">Actively maintaining a GitHub repository to track progress in building static, responsive web pages and experimenting with CSS styling techniques.</p>
+                
+                <span class="project-title">C Programming Logic Building</span><br>
+                <span class="project-desc">Main Terms: C Language, Arrays, Loops, Core Algorithms.</span>
+                <p style="margin: 0 0 10px 0;">Developing and executing foundational logic programs in C to strengthen analytical thinking and prepare for competitive programming environments.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- CO-CURRICULAR & INTERESTS -->
+    <h2>Interests</h2>
+    <table class="layout-table">
+        <tr>
+            <td class="col-date">Design & UI:</td>
+            <td class="col-details">Exploring the principles of user interface design and how it integrates with frontend code (HTML/CSS).</td>
+        </tr>
+        <tr>
+            <td class="col-date">Tech Events:</td>
+            <td class="col-details">Looking forward to participating in campus hackathons and design-athons to collaborate on software projects.</td>
+        </tr>
+    </table>
+
+    <!-- LANGUAGES -->
+    <h2>Languages</h2>
+    <p style="padding-left: 20px;">
+        English (Professional Working Proficiency), Hindi (Professional Working Proficiency), Marathi (Native Proficiency)
+    </p>
+
+</div>
+
+</body>
+</html>
